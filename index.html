@@ -1263,11 +1263,11 @@ li{
     if (!entry.isIntersecting) {
       // hero が画面外になったとき
       header.classList.add('is-scroll');    // クラス追加
-      logo.src = 'ロゴ２.png';         // ロゴ変更
+      logo.src = "ロゴ２.png";         // ロゴ変更
     } else {
       // hero が画面内に戻ったとき
       header.classList.remove('is-scroll'); // クラス削除
-      logo.src = 'ロゴ.png';           // 元のロゴに戻す
+      logo.src = "ロゴ.png";           // 元のロゴに戻す
     }
   }, { threshold: 0.1 });
 
